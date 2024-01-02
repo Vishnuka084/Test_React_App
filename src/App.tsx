@@ -50,7 +50,10 @@ function App() {
                 customers.map((customer)=>{
                     return(
 
-                            <div className="card" key={customer.id} >
+                            <div className="card" key={customer.id}
+                                 onClick={()=>{
+                                 console.log(customer)}}
+                            >
                                 <img src={customer.avatar} className="card-img-top" alt={customer.customerName}/>
                                 <div className="card-body">
                                     <h5 className="card-title">{customer.customerName}</h5>
