@@ -50,7 +50,7 @@ function App() {
                 customers.map((customer)=>{
                     return(
 
-                            <div className="card" >
+                            <div className="card" key={customer.id} >
                                 <img src="https://s3.scoopwhoop.com/anj/Photo/1f89a82b-e9d5-4a17-85fa-bed7c1b2a471.jpg" className="card-img-top" alt="..."/>
                                 <div className="card-body">
                                     <h5 className="card-title">Card title</h5>
