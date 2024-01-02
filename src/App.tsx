@@ -1,7 +1,7 @@
 
 import './App.css'
 
-const customers=[
+/*const customers=[
     {
         id:'1',
         avatar:'https://th.bing.com/th/id/OIP.fNGHjo8CJPQbyjd_95o9NAHaF7?w=190&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
@@ -38,12 +38,12 @@ const customers=[
         userProfile:''
     },
 
-];
+];*/
 
 function App() {
 
     return (
-        <>
+/*        <>
             <h1>Customer Data</h1>
             <hr/>
             {
@@ -66,8 +66,14 @@ function App() {
                 })
             }
 
+        </>*/
+        <>
+            <p>Count: 0</p>
+            <button>Increment</button>
+            <button>Decrement</button>
         </>
-    );
+
+    )
 }
 
 export default App
