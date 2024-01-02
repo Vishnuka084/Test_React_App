@@ -49,8 +49,7 @@ function App() {
             {
                 customers.map((customer)=>{
                     return(
-                        <div>
-                            <h1>{customer.customerName}</h1>
+
                             <div className="card" >
                                 <img src="https://s3.scoopwhoop.com/anj/Photo/1f89a82b-e9d5-4a17-85fa-bed7c1b2a471.jpg" className="card-img-top" alt="..."/>
                                 <div className="card-body">
@@ -59,7 +58,6 @@ function App() {
                                     <a href="#" className="btn btn-primary">Go somewhere</a>
                                 </div>
                             </div>
-                        </div>
 
                         )
                 })
